@@ -8,7 +8,7 @@ import adminRoutes from './routes/adminRoutes.js'
 app.use(express.json())
 app.use(cors());
 connectDB();
-
+res.send("hello world")
 // app.use('/', userRoutes);
 app.use('/admin', adminRoutes);
 
